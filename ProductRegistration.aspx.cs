@@ -13,6 +13,7 @@ namespace WebAppAssignment10
         {
             if(!Page.IsPostBack)
             {
+                lblMsg.Visible = false;
                 TxtCategory.Items.Add("AC");
                 TxtCategory.Items.Add("Washing Machine");
                 TxtCategory.Items.Add("Fridge");
@@ -29,6 +30,7 @@ namespace WebAppAssignment10
             lblMsg.Text += " <br>Price : " + TxtPrice.Text;
             lblMsg.Text += "<br> Product Description : " + TxtDesc.Text;
             lblMsg.Text += "<br> Release Date :" + TxtCal.SelectedDate;
+            lblMsg.Visible = true;
         }
     }
 }

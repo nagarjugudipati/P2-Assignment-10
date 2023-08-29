@@ -23,9 +23,15 @@
 <body>
     <form id="form1" runat="server">
         <div>
-             <div class="col-md-4"><asp:Image runat="server" ID="Image3" ImageUrl="~/Images/cam.jpeg" Width="500" Height="500" CssClass="img-fluid" /></div>
 
             <table class="auto-style1">
+                <tr>
+                    <td>Product Image</td>
+                    <td>
+                                     <div class="col-md-4"><asp:Image runat="server" ID="Image3" ImageUrl="~/Images/cam.jpeg" Width="500" Height="500" CssClass="img-fluid" /></div>
+                        </td>
+                    <td class="auto-style2">&nbsp;</td>
+                </tr>
                 <tr>
                     <td>Product Name</td>
                     <td>
